@@ -1,0 +1,34 @@
+/* header {
+    height:20vh;
+    width: 150vw;
+}
+body {
+    height:450vh;
+    width: 150vw;
+    background-color: rgb(247, 247, 212);
+    overflow-x: hidden;
+}
+main{
+    background-image: repeating-conic-gradient(pink 10%,rgb(78, 202, 224) 20%);
+    height:400vh;
+
+}
+section{
+    height:50vh;
+    width: 100vw;
+   
+}
+div{
+    height:50vh;
+    width: 32.5vw;
+    float: right;
+    border-style: groove;
+    align-items: center;
+}
+
+article{ 
+    height:50vh;
+    width: 33.5vw;
+    float: left;
+    border-style: groove;
+} */
