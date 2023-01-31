@@ -32,3 +32,42 @@ article{
     float: left;
     border-style: groove;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+
+#principal {
+    background: linear-gradient(rgba(95, 114, 189,0.8), rgba(155,35,234,0.7)),url("img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 65%;
+}
+
+.buttons {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+  
+.buttons a:hover {
+    transform: scale(1.2);
+ }
+
+
+ .row{
+    justify-content: center!important; 
+}

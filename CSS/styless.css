@@ -16,54 +16,13 @@
     background-size: cover;
     background-position: center;
 }
-    /* background-position: center;
-} */
-
-
-
-/* #botones{
-justify: end;
-} */
-
-
-
-
-/* header ul li {
-     display: inline-block;
-} 
-
-header ul li a{
-    text-decoration: none;
-    background: #039be5;
-    font-style: 1.5rem;
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    padding: 10px 40px;
-    color: white;
-} */
-
-/* header ul li a:hover{
-    color: red;
-} */
 
 #titulo{
     font-family: 'Press Start 2P', cursive;
     color: white;
 } 
 
-/* #menu{
-    width: 49.5vw;
-    float: right;
-    padding-top: 65px;
-    
-   
-}
 
-main{
-    width: 100vw;
-    height: 80vh;
-    background: linear-gradient(to top, black, gray);
-} */
 
 
 footer{
@@ -74,62 +33,5 @@ footer{
     align-items: center;  
 }
 
-/* #parteUno{
-    width: 100vw;
-    height: 20vh;
-   
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-} */
 
-/* #imagen{
-    border: 20px;
-    padding: 25px;
-    width: 45vw;
-    height: 60vh;
-    float:left; 
-} */
 
-#texto{
-    border: 20px;
-    padding: 25px;
-    width: 45vw;
-    height: 60vh;
-    float: right;
-    font-size: 34px;
-    font-style: oblique;
-    color: white
-}   
- 
-.buttons {
-    width: 700px;
-    display: flex;
-    justify-content: space-around;
-}
-  
-.buttons a {
-    text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background: #314652;
-    color: #f1f1f1;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    transition: all .4s ease-in-out;
-}
-  
-.buttons a:hover {
-    transform: scale(1.2);
- }
-
- #copyright{
-    width:100vw;
-    height:10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
