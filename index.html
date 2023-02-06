@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>PES FANTASY HOME PAGE</title>
 </head>
-<body style ="border: 1px solid #000 ; height: 150vh" >
+<body style ="border: 1px solid #000 ; height: 150vh" id="body" d-flex>
     <header class="container-fluid " style="height: 30vh">
         <div class="row" id="cabeza">
-            <div class="col-4 d-flex flex-row justify-content-center align-items-center">
+            <div class="col-sm-1 col-md-5 d-flex flex-row justify-content-center align-items-center">
                 <h1 class ="h6-center" id="titulo">&#9917 PES FANTASY TEAM</h1>
             </div>
-            <div class="col-7 d-flex flex-row justify-content-around align-items-center btn-group", id="botones" >
+            <div class="col-sm-1 col-md-7 d-flex flex-row justify-content-around align-items-center btn-group", id="botones" >
                 <a href="./pages/pageOne.html" target="_blank" class="btn btn-primary rounded-pill">Jugadores</a>
                 <a href="./pages/pageTwo.html"  class="btn btn-primary rounded-pill">Cuadro de Resultados</a>
                 <a href="./pages/pageThree.html" class="btn btn-primary rounded-pill">Opinion</a>
@@ -25,7 +25,7 @@
         </div>
     </header>  
 
-    <main class ="container-fluid" id="principal" style="height: 70 vh">
+    <main class ="container-fluid" id="principal" style="height:70 vh">
         <div class="row">
             <div class="col-5 d-flex flex-row justify-content-center align-items-center" h4>
                 <p class="text-justify">A continuación encontraras información sobre uno de los equipos más legendarios 
@@ -33,9 +33,9 @@
             Su  estilo de juego conocido como el <strong>"tiki taki"</strong> ha generado escuela, ya que ha sido el sello de todas sus victorias 
             y ha garantizado el triunfo a otros equipos, como por el ejemplo la victoria de Argentina en el ultimo mundial disputado. 
                 </p>
-            </div>
+        </div>
 
-            <div id="carouselExample" class="col-7 d-flex flex-row justify-content-center align-items-center carousel slide">
+        <div id="carouselExample" class="col-7 d-flex flex-row justify-content-center align-items-center carousel slide">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img src="./images/castolo2.jpg" class="d-block w-100" alt="banner 1">
@@ -61,36 +61,36 @@
              </div>
         </div>
       </main> 
-      <aside class ="container-fluid vh-30" id="principal">    
+      <aside class ="container-fluid" id="principal" style="height:25vh">    
         <div class="row"> 
-          <div class="col-6"; id="Patrocinio">
-              Principales patrocinadores del Club
-          </div>
-           <div class="col-6"; id="Patrocinio">
-              <img src="/images/spoty.jpg" alt="patrocinadores">
+          <div class="col-6 border: 1px solid #000 d-flex justify-content-center align-items-stretch"; id="Patrocinio1">
+              <img src="./images/spoty.jpg" alt="patrocinadores" class="img-fluid">
+            </div>
+           <div class="col-6 d-flex justify-content-center align-items-center"; id="Patrocinio2">
+            <h2>Principales patrocinadores del Club</h2>
            </div>
         </div>
       </aside>  
-
-   
-    <footer>
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-6">         
-            <div class="buttons">
-                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://twitter.com/" target="_blank"  class="fa fa-twitter"></a>
-                <a href="https://www.google.com/"  target="_blank"class="fa fa-google-plus"></a>
-                <a href="https://www.youtube.com/"  target="_blank" class="fa fa-youtube"></a>
-                <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>     
+      <footer style="height:25vh">
+        <div class="container d-flex justify-content-around align-items-center">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-around align-items-center btn-group">   
+              <a href="https://www.facebook.com/" target="_blank" class="btn btn-primary rounded-pill">Facebook</a>
+              <a href="https://www.google.com"  class="btn btn-primary rounded-pill">Google</a>
+              <a href="https://twitter.com/"" class="btn btn-primary rounded-pill">Twitter</a>
+              <a href="https://www.linkedin.com/" class="btn btn-primary rounded-pill">Lindekin</a>  
             </div>
-          </div>  
-          <div class="col-6 text-center align-items-center">
-            2022-Todos los derechos reservados.
-          </div>           
-        </div>  
-      </div>       
-    </footer> 
+            <div class="col-6 d-flex justify-content-around align-items-center align-items-center">   
+              <h3>2022-Todos los derechos reservados.</h3>
+            </div>
+  
+          </div>
+  
+        </div>
+      </footer>
+  
+      
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>   
@@ -98,7 +98,9 @@
 
 
 
-
+  
+          
+    
 
 
 
