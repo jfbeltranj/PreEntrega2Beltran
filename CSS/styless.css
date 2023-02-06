@@ -43,7 +43,6 @@ footer{
 }   
  
 .buttons {
-    width: 700px;
     display: flex;
     justify-content: space-around;
 }
@@ -66,12 +65,12 @@ footer{
     transform: scale(1.2);
  }
 
- #copyright{
+ /* #copyright{
     width:100vw;
     height:10vh;
     display: flex;
     justify-content: center;
     align-items: center;
- }
+ } */
 
 
