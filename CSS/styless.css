@@ -6,11 +6,9 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    min-height: 60%;
 }
 
 #cabeza {
-    height: 10%;
     background-image: url('../images/tribuna.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -23,7 +21,6 @@
 } 
 
 footer{
-    height : 30%;
     background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgb(218, 11, 190) 0%, rgba(0,191,255,1) 90% );
     /* display: flex;
     justify-content: space-around;
@@ -32,12 +29,6 @@ footer{
 
 
 #texto{
-    border: 20px;
-    padding: 25px;
-    width: 45vw;
-    height: 60vh;
-    float: right;
-    font-size: 34px;
     font-style: oblique;
     color: white
 }   
