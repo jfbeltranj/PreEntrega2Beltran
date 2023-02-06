@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    min-height: 65%;
+    min-height: 60%;
 }
 
 #cabeza {
@@ -23,11 +23,11 @@
 } 
 
 footer{
-    height : 25%;
+    height : 30%;
     background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgb(218, 11, 190) 0%, rgba(0,191,255,1) 90% );
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;   */
 }
 
 
@@ -51,7 +51,7 @@ footer{
     text-decoration: none;
     font-size: 28px;
     width: 60px;
-    height: 60px;
+    height: 55px;
     line-height: 60px;
     text-align: center;
     background: #314652;
